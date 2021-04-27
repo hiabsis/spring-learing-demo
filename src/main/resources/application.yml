@@ -1,0 +1,17 @@
+## 应用名称
+#spring.application.name=demo
+## 应用服务 WEB 访问端口
+#server.port=8080
+#
+#elasticSearch.host=127.0.0.1
+#elasticSearch.port=9200
+#elasticSearch.client.connectNum=10
+#elasticSearch.client.connectPerRoute=50
+server:
+  port: 9007
+spring:
+  application:
+    name: tensquare-search
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
